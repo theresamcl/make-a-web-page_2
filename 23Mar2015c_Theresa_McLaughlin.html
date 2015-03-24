@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Intro to Programming class notes - Theresa McLaughlin</title>
+    <link rel="stylesheet" type="text/css" href="style1.css">
+  </head>
+  <body>
+    <h1 class="toptitle">Intro to Programming Class Notes</h1>
+    <h1 class="title">How the Web Works</h1>
+    <div class="description">
+      <p>The web consists of people and computers communicating with each other via <span class="italic">3 main components:</span>
+      <ul>
+        <li><span class="bold">Browser</span> - computer/human interface for the web; i.e., Mozilla, Internet Explorer, Safari, Chrome</li>
+        <li><span class="bold">Internet</span> - the world's largest computer network</li>
+        <li><span class="bold">Servers</span> - host files with content including text, audio, images and video</li>
+      </ul>
+    </div>
+    <h1 class="title">HTML</h1>
+    <div class="description">
+      <p>HTML stands for Hypertext Markup Language. HTML documents form the majority of the content on the web. HTML documents contain text content which describes "what you see" and markup which describes "how it looks". For more information about current HTML standards check out <a href = "http://www.w3.org/html/">the w3.org page</a>.
+      </p>
+    </div>
+    <h1 class="title">Tags and Elements</h1>
+    <div class="description">
+      <p>HTML elements consist of HTML tags + content.  The tags contain formatting information telling the browser how the associated content should appear and function; i.e., <span class="bold">bold</span>, <span class="italic">italicized</span>, simple content or a <a href = "http://www.udacity.com">link to another webpage</a>.  Most HTML tags have the format <b>
+        &lt;opening tag&gt; <span class="italic">content </span>&lt;/closing tag&gt;</b> although some, like the image source tag, are designed without a closing tag.
+      </p>
+    </div>
+    <h1 class="title">Inline vs Block Elements</h1>
+    <div class="description">
+      <p>HTML elements are either <span class="italic">inline</span> or <span class="italic">block</span>. Block elements form an "invisible box" around the content inside of them, imparting additional formating attributes.
+      </p>
+    </div>
+    <h1 class="title">Box sizing</h1>
+    <div class="description">
+      <p>Boxes have <span class="italic">4 characteristics.</span>  Working from the inside out they are:
+      <ul>
+        <li>Content,</li>
+        <li>Padding,</li>
+        <li>Border, and</li>
+        <li>Margin.</li>
+      </ul>
+      It is best to set sizes as a percentage rather than in pixels, although a maximum size may be specfied in pixels.
+    </div>
+    <h1 class="title">Box positioning</h1>
+    <div class="description">
+      <p>The Flex box allows divs to appear side by side on the page rather than the default of appearing on sequential separate lines.  Use webkits to enable flex boxes to work properly in different browsers.</p>
+    </div>
+    <h1 class="title">Defining Classes and Avoiding Repetition</h1>
+    <div class="description">
+      <p>When dividing the design mock into boxes, watch for repeated elements that require consistent formatting, such as the Title bars in these notes.  Instead of writing a generic &lt;div&gt; container and specifying the formatting for each one, define a <span class="italic">class</span> that can be used to specify the formatting in the css file.  Features like background color, font, margins and padding can be modified through the class definition. </p>
+      <p> Computers interpret instructions literally, and a small mistake like a missing ">" can cause unintended behavior in a program.  Applying changes to the class definition instead of multiple instances reduces topportunities for typos and omissions.  Modifying via the class also shortens the time needed to code new instances and changes to style elements.</p>
+    </div>
+    <h1 class="title"> CODE - TEST - REFINE</h1>
+    <div class="description">
+      <p>When creating a website from a design mockup, use the Code-Test-Refine stategy:
+      <ol>
+        <li>Look for natural boxes on the design mockup.</li>
+        <li>Look for repeated styles and semantic elements.</li>
+        <li>Write your HTML.</li>
+        <li>Apply styles from the biggest elements to the smallest.  Use classes to describe styles for repeated elements efficiently, without repetition.</li>
+        <li>Fix things.  Save your file and refresh the browser to check your changes as you go.  Use Chrome developer tools to model style changes quickly, then transfer the best settings to your code file.</li>
+      </ol>
+    </div>
+    <h1 class="title">Check your code</h1>
+    <div class="description">
+      <p>There are many free tools to help flag syntax errors in HTML and CSS files.  Some examples are:
+      <ul>
+        <li>Formatting HTML code, standardizing indentation, etc: <a href="http://www.freeformatter.com/html-formatter.html#ad-output">http://www.freeformatter.com/html-formatter.html#ad-output</a></li>
+        <li>HTML validation: <a href="http://validator.w3.org/#validate_by_input">http://validator.w3.org/#validate_by_input</a></li>
+        <li>CSS validation: <a href="https://jigsaw.w3.org/css-validator/#validate_by_input">https://jigsaw.w3.org/css-validator/#validate_by_input</a></li>
+      </ul>
+    </div>
+  </body>
+</html>
